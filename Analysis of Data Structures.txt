@@ -1,0 +1,24 @@
+Analysis of Data Structures
+
+********************#Vector******************************************************
+
+Advantages
+Easy to implement and use, can access elements by time index or O(1) directly, able to dynamically resize without deallocation of memory
+
+Disadvantages
+Searches by course number is O(n), inserting or removing data in the middle becomes more complex
+
+********************#Hash Table******************************************************
+
+Advantages
+Average O(1) search, insert and deletion, efficient in storing data, keys, value pairs, scales largely
+
+Disadvantages
+Collisions will cause slower operations, poor hash functions will cause poor performance
+
+********************#BST (Binary Search Tree)******************************************************
+Advantages
+Supports efficient range and ordered queries, maintains sorted order automatically
+
+Disadvantages
+More complex to implement, extra memory overhead for storing child pointers
